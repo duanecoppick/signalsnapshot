@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function ConfirmationPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-purple-100 via-blue-50 to-cyan-50">
@@ -104,6 +106,17 @@ export default function ConfirmationPage() {
             <p className="text-lg text-gray-600 mt-2">
               You're about to see what's actually happening with your content.
             </p>
+          </div>
+
+          {/* Logo */}
+          <div className="mt-12 flex justify-center">
+            <Image
+              src="/EchoYouMiloLogo2.png"
+              alt="EchoYou Milo Logo"
+              width={200}
+              height={100}
+              className="object-contain"
+            />
           </div>
         </div>
       </div>
