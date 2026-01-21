@@ -28,7 +28,3 @@ pnpm-debug.log*
 # vercel
 .vercel
 
-# secrets
-/.env.local 
-/env.local
-
