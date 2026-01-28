@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  // basePath removed - deploy at root for signalsnapshot.vercel.app
+  // For askmiloai.com/signalsnapshot, use rewrites in the main domain's next.config.js
 }
 
 module.exports = nextConfig

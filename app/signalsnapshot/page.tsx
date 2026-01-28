@@ -95,14 +95,14 @@ export default function Home() {
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-2xl p-16 max-w-5xl mx-auto">
           {/* Hero Section */}
           <div className="text-center space-y-8">
-            <h1 className="text-6xl md:text-7xl font-bold leading-tight">
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
               <span className="bg-gradient-to-r from-purple-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
-                Turn Your Instagram Content Into Consistent Sales
+                Turn Your Instagram Into a Sales System — Not a Guessing Game
               </span>
             </h1>
 
-            <h2 className="text-2xl md:text-3xl text-gray-700 font-semibold max-w-4xl mx-auto leading-relaxed">
-              Steal the Signal Snapshot™ Framework to find what's blocking your Instagram sales without posting more, chasing trends or guessing what's wrong.
+            <h2 className="text-xl md:text-3xl text-gray-700 font-semibold max-w-4xl mx-auto leading-relaxed">
+              Steal the Signal Snapshot™ Framework to identify the exact signal blocking your sales, so you can fix what matters without posting more, chasing trends, or burning out.
             </h2>
 
             {/* Product Image */}
