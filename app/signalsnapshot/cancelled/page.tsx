@@ -1,5 +1,5 @@
 export default function CancelledPage() {
-  const checkoutUrl = process.env.NEXT_PUBLIC_SIGNAL_SNAPSHOT_CHECKOUT_URL ?? "https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00"
+  const checkoutUrl = process.env.NEXT_PUBLIC_SIGNAL_SNAPSHOT_CHECKOUT_URL ?? "https://buy.stripe.com/28E28s8zE5Rh8R3cvqbsc01"
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-purple-100 via-blue-50 to-cyan-50">

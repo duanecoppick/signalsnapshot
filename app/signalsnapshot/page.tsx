@@ -49,6 +49,7 @@ function FAQItem({ question, answer, isOpen, onToggle }: FAQItemProps) {
 
 export default function Home() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
+  const checkoutUrl = process.env.NEXT_PUBLIC_SIGNAL_SNAPSHOT_CHECKOUT_URL ?? "https://buy.stripe.com/28E28s8zE5Rh8R3cvqbsc01";
 
   const faqs = [
     {
@@ -118,7 +119,7 @@ export default function Home() {
             </div>
 
             <div className="pt-8">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-xl font-semibold px-12 py-5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-xl font-semibold px-12 py-5 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 SAY NO MORE I'M IN
               </a>
             </div>
@@ -160,7 +161,7 @@ export default function Home() {
 
             {/* CTA Button after Section 2 */}
             <div className="mt-12 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 GRAB YOUR SIGNAL SNAPSHOT™ NOW
               </a>
             </div>
@@ -220,7 +221,7 @@ export default function Home() {
 
             {/* CTA Button after Section 3 */}
             <div className="mt-12 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 SNAG YOUR SIGNAL-LEVEL CLARITY HERE
               </a>
             </div>
@@ -306,7 +307,7 @@ export default function Home() {
 
             {/* CTA Button after Section 4 */}
             <div className="mt-12 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 SAY NO MORE, I'M IN
               </a>
             </div>
@@ -448,7 +449,7 @@ export default function Home() {
 
             {/* CTA Button after Section 5 */}
             <div className="mt-12 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 SAY NO MORE I'M IN
               </a>
             </div>
@@ -634,7 +635,7 @@ export default function Home() {
 
             {/* CTA Button after Section 6 */}
             <div className="mt-12 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 GRAB SIGNAL SNAPSHOT™ NOW
               </a>
             </div>
@@ -769,7 +770,7 @@ export default function Home() {
 
             {/* CTA Button after Section 8 */}
             <div className="mt-12 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 SAY NO MORE, I'M IN
               </a>
             </div>
@@ -911,7 +912,7 @@ export default function Home() {
 
             {/* CTA Button after Section 9 */}
             <div className="mt-12 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 SAY NO MORE, I'M IN
               </a>
             </div>
@@ -1094,7 +1095,7 @@ export default function Home() {
 
             {/* CTA Button after Section 10 */}
             <div className="mt-12 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 I'M IN! SAY NO MORE
               </a>
             </div>
@@ -1154,7 +1155,7 @@ export default function Home() {
                   </div>
 
                   <div className="mt-8">
-                    <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                    <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                       👉 Stop Guessing. Snag Signal Snapshot™
                     </a>
                   </div>
@@ -1185,7 +1186,7 @@ export default function Home() {
 
             {/* Final CTA Button After FAQ */}
             <div className="mt-16 text-center">
-              <a href="https://buy.stripe.com/cNi4gA7vA6VlaZb0MIbsc00" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <a href="{checkoutUrl}" className="inline-block bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 hover:from-purple-600 hover:via-blue-600 hover:to-cyan-600 text-white text-2xl font-bold px-16 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 SAY NO MORE, I'M IN
               </a>
               <div className="mt-6">
