@@ -1,6 +1,19 @@
+'use client'
+
 import Image from 'next/image'
+import { useEffect } from 'react'
 
 export default function ConfirmationPage() {
+  useEffect(() => {
+    // Fire Meta Purchase event
+    if (typeof window !== 'undefined' && window.fbq) {
+      window.fbq('track', 'Purchase', {
+        currency: 'USD',
+        value: 0.00
+      });
+    }
+  }, []);
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-purple-100 via-blue-50 to-cyan-50">
       <div className="max-w-4xl mx-auto px-6 py-20">
